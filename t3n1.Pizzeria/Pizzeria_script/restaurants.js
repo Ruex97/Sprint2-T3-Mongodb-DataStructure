@@ -1,0 +1,4 @@
+
+db.createCollection( 'restaurants', {validator: {$jsonSchema: {bsonType: 'object',title:'restaurants',required: [         'address',          'employees',          'orders'],properties: {address: {bsonType: 'object',
+title:'object',required: [         'street',          'number',          'zip_code',          'city',          'province'],properties: {street: {bsonType: 'string'},number: {bsonType: 'string'},door: {bsonType: 'string'},floor: {bsonType: 'string'},zip_code: {bsonType: 'string'},city: {bsonType: 'string'},province: {bsonType: 'string'}}},employees: {bsonType: 'object',
+title:'object',required: [         'first_name',          'last_name',          'nif',          'phone_number',          'job_type'],properties: {first_name: {bsonType: 'string'},last_name: {bsonType: 'string'},nif: {bsonType: 'string'},phone_number: {bsonType: 'string'},job_type: {bsonType: 'string'}}},orders: {bsonType: 'objectId'}}         }      }});  
