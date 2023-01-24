@@ -1,2 +1,0 @@
-
-db.createCollection( 'Sellings', {validator: {$jsonSchema: {bsonType: 'object',title:'Sellings',required: [         'selling_date',          'Customers',          'Glasses'],properties: {selling_date: {bsonType: 'date'},Customers: {bsonType: 'objectId'},Glasses: {bsonType: 'objectId'}}         }      }});  
