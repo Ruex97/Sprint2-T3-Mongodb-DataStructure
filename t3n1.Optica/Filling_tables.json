@@ -1,0 +1,148 @@
+{
+  "_id": {
+    "$oid": "63d0f0ca2db94deaa11719b5"
+  },
+  "first_name": "Glassestop",
+  "phone_number": "645546789",
+  "company_nif": "12345678A",
+  "address": {
+    "street": "Calle Alcala",
+    "number": "8",
+    "zip_code": "08244",
+    "country": "Spain"
+  }
+}
+
+{
+  "_id": {
+    "$oid": "63d0f1322db94deaa11719b9"
+  },
+  "first_name": "GlassesCheap",
+  "phone_number": "641234589",
+  "company_nif": "87654321B",
+  "address": {
+    "street": "Calle Almeria",
+    "number": "12",
+    "zip_code": "08202",
+    "country": "Spain"
+  }
+}
+
+{
+  "_id": {
+    "$oid": "63d0f5722db94deaa11719cf"
+  },
+  "first_name": "Juan",
+  "postal_address": "Calle continente, 4",
+  "phone_number": "655547852",
+  "email": "juan@gmail.com",
+  "registration_date": {
+    "$date": {
+      "$numberLong": "1651406723000"
+    }
+  },
+  "affiliate_id": null
+}
+
+{
+  "_id": {
+    "$oid": "63d0f6052db94deaa11719d1"
+  },
+  "first_name": "Pablo",
+  "postal_address": "Calle Latorre, 14",
+  "phone_number": "654678922",
+  "email": "pablo@gmail.com",
+  "registration_date": {
+    "$date": {
+      "$numberLong": "1654172400000"
+    }
+  },
+  "affiliate_id": null
+}
+
+{
+  "_id": {
+    "$oid": "63d0f3252db94deaa11719bc"
+  },
+  "brand": "Ray-ban",
+  "crystal_graduation": "2",
+  "mount_type": "floating",
+  "mount_colour": "red",
+  "glass_colour": "black",
+  "price": 70.99,
+  "Supplier": {
+    "$oid": "63d0f0ca2db94deaa11719b5"
+  }
+}
+
+{
+  "_id": {
+    "$oid": "63d0f3da2db94deaa11719be"
+  },
+  "brand": "Ray-ban",
+  "crystal_graduation": "3",
+  "mount_type": "floating",
+  "mount_colour": "blue",
+  "glass_colour": "red",
+  "price": 40.99,
+  "Supplier": {
+    "$oid": "63d0f0ca2db94deaa11719b5"
+  }
+}
+
+{
+  "_id": {
+    "$oid": "63d0f3ea2db94deaa11719c0"
+  },
+  "brand": "Hawker",
+  "crystal_graduation": "1",
+  "mount_type": "Steel",
+  "mount_colour": "brown",
+  "glass_colour": "black",
+  "price": 70.99,
+  "Supplier": {
+    "$oid": "63d0f1322db94deaa11719b9"
+  }
+}
+
+{
+  "_id": {
+    "$oid": "63d0f7292db94deaa11719d6"
+  },
+  "selling_date": {
+    "$date": {
+      "$numberLong": "1660308345000"
+    }
+  },
+  "seller": {
+    "first_name": "Javier",
+    "last_name": "Morato"
+  },
+  "customers": {
+    "$oid": "63d0f5722db94deaa11719cf"
+  },
+  "glasses": {
+    "$oid": "63d0f3ea2db94deaa11719c0"
+  }
+}
+
+{
+  "_id": {
+    "$oid": "63d0f7862db94deaa11719d8"
+  },
+  "selling_date": {
+    "$date": {
+      "$numberLong": "1660306820000"
+    }
+  },
+  "seller": {
+    "first_name": "Cristiano",
+    "last_name": "Ronaldo"
+  },
+  "customers": {
+    "$oid": "63d0f5722db94deaa11719cf"
+  },
+  "glasses": {
+    "$oid": "63d0f3da2db94deaa11719be"
+  }
+}

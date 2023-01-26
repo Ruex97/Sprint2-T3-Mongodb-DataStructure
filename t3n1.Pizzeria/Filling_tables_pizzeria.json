@@ -1,0 +1,276 @@
+{
+  "_id": {
+    "$oid": "63d242b9333200548b95b8c0"
+  },
+  "first_name": "Juan",
+  "last_name": "Garcia",
+  "address": {
+    "street": "Calle Alcala",
+    "number": "8",
+    "zip_code": "08244",
+    "city": "Sabadell",
+    "province": "Barcelona"
+  },
+  "phone_number": "645546789"
+}
+
+{
+  "_id": {
+    "$oid": "63d24311333200548b95b8c2"
+  },
+  "first_name": "Pablo",
+  "last_name": "Escobar",
+  "address": {
+    "street": "Hacienda napoles",
+    "number": "18",
+    "door": "4",
+    "floor": "6",
+    "zip_code": "08278",
+    "city": "Terrassa",
+    "province": "Barcelona"
+  },
+  "phone_number": "655585255"
+}
+
+{
+  "_id": {
+    "$oid": "63d2433f333200548b95b8c4"
+  },
+  "first_name": "Marie",
+  "last_name": "Curie",
+  "address": {
+    "street": "Calle Velazquez",
+    "number": "8",
+    "zip_code": "25001",
+    "city": "Lleida",
+    "province": "Lleida"
+  },
+  "phone_number": "623359478"
+}
+
+{
+  "_id": {
+    "$oid": "63d243cd333200548b95b8c7"
+  },
+  "name": "4 Cheese pizza",
+  "description": "description1",
+  "image": "image1",
+  "price": 12.49,
+  "type": "pizza",
+  "pizza_category": "Menu pizza"
+}
+
+{
+  "_id": {
+    "$oid": "63d243f0333200548b95b8c9"
+  },
+  "name": "Tuna pizza",
+  "description": "description2",
+  "image": "image2",
+  "price": 18.49,
+  "type": "pizza",
+  "pizza_category": "Weekend pizza"
+}
+
+{
+  "_id": {
+    "$oid": "63d2441b333200548b95b8cb"
+  },
+  "name": "Diet Coke",
+  "description": "description3",
+  "image": "image3",
+  "price": 2.49,
+  "type": "drink",
+  "pizza_category": null
+}
+
+{
+  "_id": {
+    "$oid": "63d2443a333200548b95b8ce"
+  },
+  "name": "Cheese Burguer",
+  "description": "description4",
+  "image": "image4",
+  "price": 9.99,
+  "type": "burguer",
+  "pizza_category": null
+}
+
+{
+  "_id": {
+    "$oid": "63d25bc8333200548b95b935"
+  },
+  "date_time": {
+    "$date": {
+      "$numberLong": "1672253120000"
+    }
+  },
+  "delivery_or_pickup": "pickup",
+  "burguers_quantity": 3,
+  "pizzas_quantity": null,
+  "drinks_quantity": 3,
+  "delivery_employee": null,
+  "delivery_time": null,
+  "price": 36,
+  "customers": {
+    "$oid": "63d242b9333200548b95b8c0"
+  },
+  "products": [
+    {
+      "$oid": "63d2441b333200548b95b8cb"
+    },
+    {
+      "$oid": "63d2443a333200548b95b8ce"
+    }
+  ]
+}
+
+
+{
+  "_id": {
+    "$oid": "63d25ca1333200548b95b939"
+  },
+  "date_time": {
+    "$date": {
+      "$numberLong": "1672253120000"
+    }
+  },
+  "delivery_or_pickup": "pickup",
+  "burguers_quantity": null,
+  "pizzas_quantity": 3,
+  "drinks_quantity": 4,
+  "delivery_employee": null,
+  "delivery_time": null,
+  "price": 60,
+  "customers": {
+    "$oid": "63d24311333200548b95b8c2"
+  },
+  "products": [
+    {
+      "$oid": "63d2441b333200548b95b8cb"
+    },
+    {
+      "$oid": "63d243cd333200548b95b8c7"
+    }
+  ]
+}
+
+
+{
+  "_id": {
+    "$oid": "63d25d94333200548b95b940"
+  },
+  "date_time": {
+    "$date": {
+      "$numberLong": "1672253120000"
+    }
+  },
+  "delivery_or_pickup": "delivery",
+  "burguers_quantity": 3,
+  "pizzas_quantity": 3,
+  "drinks_quantity": 3,
+  "delivery_employee": "Felipe",
+  "delivery_time": {
+    "$date": {
+      "$numberLong": "1672253600000"
+    }
+  },
+  "price": 80,
+  "customers": {
+    "$oid": "63d2433f333200548b95b8c4"
+  },
+  "products": [
+    {
+      "$oid": "63d2441b333200548b95b8cb"
+    },
+    {
+      "$oid": "63d2443a333200548b95b8ce"
+    },
+    {
+      "$oid": "63d243f0333200548b95b8c9"
+    }
+  ]
+}
+
+{
+  "_id": {
+    "$oid": "63d25e1f333200548b95b948"
+  },
+  "address": {
+    "street": "Av. Francesc Macia",
+    "number": "8",
+    "zip_code": "08206",
+    "city": "Sabadell",
+    "province": "Barcelona"
+  },
+  "employees": {
+    "1": {
+      "first_name": "Juan",
+      "last_name": "romero",
+      "nif": "49858565W",
+      "phone_number": "644478899",
+      "job_type": "waiter"
+    },
+    "2": {
+      "first_name": "Marta",
+      "last_name": "moreno",
+      "nif": "49833385W",
+      "phone_number": "655579844",
+      "job_type": "cook"
+    },
+    "3": {
+      "first_name": "Felipe",
+      "last_name": "sanchez",
+      "nif": "22233385W",
+      "phone_number": "655599944",
+      "job_type": "delivery"
+    }
+  },
+  "orders": {
+    "$oid": "63d25d94333200548b95b940"
+  }
+}
+
+{
+  "_id": {
+    "$oid": "63d25eb6333200548b95b953"
+  },
+  "address": {
+    "street": "carrer major",
+    "number": "15",
+    "zip_code": "25003",
+    "city": "Lleida",
+    "province": "Lleida"
+  },
+  "employees": {
+    "1": {
+      "first_name": "Belen",
+      "last_name": "Esteban",
+      "nif": "49555565W",
+      "phone_number": "655558899",
+      "job_type": "waiter"
+    },
+    "2": {
+      "first_name": "Marta",
+      "last_name": "sanchez",
+      "nif": "12123385W",
+      "phone_number": "651179844",
+      "job_type": "cook"
+    },
+    "3": {
+      "first_name": "Felipe",
+      "last_name": "sanchez",
+      "nif": "45633385W",
+      "phone_number": "612399944",
+      "job_type": "delivery"
+    }
+  },
+  "orders": [
+    {
+      "$oid": "63d25bc8333200548b95b935"
+    },
+    {
+      "$oid": "63d25bc8333200548b95b939"
+    }
+  ]
+}
