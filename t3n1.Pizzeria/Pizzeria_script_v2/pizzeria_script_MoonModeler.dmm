@@ -21,7 +21,7 @@
 				{
 					"id": "f9696694-4ae5-4516-aa63-d858d21c156d",
 					"name": "date_time",
-					"datatype": "timestamp",
+					"datatype": "date",
 					"param": "",
 					"pk": false,
 					"nn": true,
@@ -105,7 +105,7 @@
 				{
 					"id": "e8bba39e-6419-4583-932c-5cdf8bd63531",
 					"name": "delivery_time",
-					"datatype": "timestamp",
+					"datatype": "date",
 					"param": "",
 					"pk": false,
 					"nn": false,
@@ -153,7 +153,7 @@
 					"defaultvalue": "",
 					"data": "",
 					"fk": true,
-					"ref": "products"
+					"list": true
 				}
 			],
 			"relations": [
@@ -227,7 +227,7 @@
 					"comment": "",
 					"defaultvalue": "",
 					"data": "",
-					"list": false,
+					"list": true,
 					"enum": "",
 					"validate": ""
 				},
@@ -952,7 +952,7 @@
 		"def_collation": "",
 		"def_others": "",
 		"modelScriptsDir": "C:\\Users\\xavir\\Desktop\\Sprint 2\\Tasca 3 - Diagramas Mongodb\\t3n1.Pizzeria\\Pizzeria_script_v2",
-		"lastSaved": "23/1/2023"
+		"lastSaved": "Wed Jan 25 2023 16:53:57 GMT+0100 (hora estándar de Europa central)"
 	},
 	"otherObjects": {},
 	"diagrams": {
